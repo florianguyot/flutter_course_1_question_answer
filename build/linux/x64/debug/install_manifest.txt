@@ -1,0 +1,10 @@
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/flutter_complete_guide
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/florian/Workspace/Course/flutter/flutter_complete_guide/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
