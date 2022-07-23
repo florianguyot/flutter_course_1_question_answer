@@ -1,25 +1,33 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
-class Result extends StatefulWidget {
+class Result extends StatelessWidget {
   final int score;
-  const Result(this.score);
+  final VoidCallback resetQuiz;
 
-  @override
-  State<Result> createState() => _ResultState();
-}
+  Result(this.score, this.resetQuiz);
 
-class _ResultState extends State<Result> {
-  String get resultPhrase => "Nice, your score is ${widget.score}";
+  String get resultPhrase => "Nice, your score is $score";
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-        child: Text(
-      resultPhrase,
-      style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
-      textAlign: TextAlign.center,
-    ));
+    return Column(
+      children: [
+        Center(
+            child: Text(
+          resultPhrase,
+          style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
+          textAlign: TextAlign.center,
+        )),
+        FlatButton(
+          onPressed: resetQuiz,
+          child: Text(
+            "Restart",
+          ),
+          textColor: Colors.blue,
+        )
+      ],
+    );
   }
 }
